@@ -9,4 +9,3 @@ def test_align():
         S, T = test_cases[i]
         align_S, align_T = fast_align_MED(S, T)
         assert (align_S == alignments[i][0] and align_T == alignments[i][1])
-
